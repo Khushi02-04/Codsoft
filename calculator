@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   double a,b;
+   char op;
+   cout<<"Enter 1st number";
+   cin>>a;
+   cout<<"Enter 2nd number";
+   cin>>b;
+   switch(op){
+   case('+'):
+   cout<<"result is"<<a+b;
+   break;
+case('*'):
+   cout<<"result is"<<a*b;
+   break;
+case('-'):
+   cout<<"result is"<<a-b;
+   break;
+case('/'):
+   cout<<"result is"<<a/b;
+   break;
+defalt:
+cout<<"invalid operator";
+
+return 0;
+}
+
